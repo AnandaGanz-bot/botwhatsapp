@@ -16,12 +16,12 @@ let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid":
  VERSION:3.0\n
  N:; Re-;;;\n
  FN: Re- \n
- item1.TEL;waid=6283820073017:6283820073017\n
+ item1.TEL;waid=6285725012403:6285725012403\n
  item1.X-ABLabel:Busy\n
- URL;Web gwejh: https://github.com/Rlxfly\n
- EMAIL;Email Owner: rlxfly.uwu@gmail.com\n
+ URL;Web gwejh: https://github.com/AnandaGanz-bot\n
+ EMAIL;Email Owner: anandaganz7@gmail.com\n
  ORG: ${me}\n
- TEL;Creator tzy-md;waid=6283820073017:6283820073017\n
+ TEL;Creator tzy-md;waid=6285725012403:6285725012403\n
  END:VCARD`})
   
        conn.sendMessage(m.chat, { contacts: { displayName: listOwner, contacts: [{ listOwner }] } }, { quoted: m })
@@ -33,12 +33,12 @@ let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid":
 let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 1,status: 200, surface: 200, message: `                   「 MY OWNER 」            `, orderTitle: 'Centauri', sellerJid: '0@s.whatsapp.net'}}}
   let vcard = 'BEGIN:VCARD\n' // metadata of the contact card
                     + 'VERSION:3.0\n' 
-                    + 'N:; Pilar;;;'
-                    + 'FN: PilarXcode\n' // full name
-                    + 'ORG:Pilar;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6289625556161:+628-962-555-6161\n' // WhatsApp ID + phone number
+                    + 'N:; Ananda;;;'
+                    + 'FN: AnandaGanz\n' // full name
+                    + 'ORG:Ananda;\n' // the organization of the contact
+                    + 'TEL;type=CELL;type=VOICE;waid=6285725012403:+62 857-2501-2403\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                conn.sendMessage(m.chat, { contacts: { displayName: 'PilarXcode', contacts: [{ vcard }] } }, { quoted: ftroli })
+                conn.sendMessage(m.chat, { contacts: { displayName: 'AnandaGanz', contacts: [{ vcard }] } }, { quoted: ftroli })
 m.reply(m.chat,'*Tuh nomor owner ku*\n*Chat jika PENTING*', m)
 */
 }
