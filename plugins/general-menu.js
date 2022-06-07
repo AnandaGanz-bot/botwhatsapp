@@ -97,7 +97,7 @@ let pp = await( await conn.profilePictureUrl(m.sender, 'image').catch(() => 'htt
 //Jejak
  conn.sendButton(m.chat, hi, text.trim(), await genProfile(conn, m), [['OWNER', '-owner']], false, { quoted: m, contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
-mediaUrl: 'https://youtu.be/Nq3x1AkwgpY',
+mediaUrl: 'https://chat.whatsapp.com/CfWwhgfxTRs8XjdgDedxSG',
 title: time,
 body: me,
 sourceUrl: 'http://s.id/0x404', thumbnail: await( await conn.getFile(pp)).data
