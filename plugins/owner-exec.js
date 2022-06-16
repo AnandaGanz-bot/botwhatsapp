@@ -49,4 +49,4 @@ class CustomArray extends Array {
     if (typeof args[0] == 'number') return super(Math.min(args[0], 10000))
     else return super(...args)
   }
-                     }
+}
