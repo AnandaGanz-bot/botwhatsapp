@@ -21,7 +21,7 @@ let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid":
  URL;Web gwejh: https://github.com/AnandaGanz-bot\n
  EMAIL;Email Owner: anandaganz7@gmail.com\n
  ORG: ${me}\n
- TEL;Creator tzy-md;waid=6285725012403:6285725012403\n
+ TEL;Creator bot-md;waid=6285725012403:6285725012403\n
  END:VCARD`})
   
        conn.sendMessage(m.chat, { contacts: { displayName: listOwner, contacts: [{ listOwner }] } }, { quoted: m })
